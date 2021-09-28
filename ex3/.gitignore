@@ -1,2 +1,3 @@
 *.lammpstrj
 log.lammps
+test*
