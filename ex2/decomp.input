@@ -10,7 +10,7 @@ mass 2 1.0
 
 pair_style lj/cut 3.0
 pair_coeff 1 1 1.0 1.0 3.0
-pair_coeff 1 2 1.0 1.0 1.0
+pair_coeff 1 2 1.0 1.0 1.2
 pair_coeff 2 2 1.0 1.0 3.0
 
 neighbor 0.3 bin
@@ -21,6 +21,6 @@ fix 1 all nvt temp 0.8 0.8 0.1
 dump id all atom 100 decomp.lammpstrj
 
 thermo 500
-run 20000
+run 100000
 
 
